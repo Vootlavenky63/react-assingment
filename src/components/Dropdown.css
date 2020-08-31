@@ -1,0 +1,56 @@
+
+.dd-option {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 20px;
+    padding-left: 10px;
+    padding-left: 18px;
+}
+
+.dd-wrapper-width{
+  width: 350px;
+  display: flex;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+  .dropdown-label{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+  }
+
+  .dd-outer-div{
+    display: inline-flex;
+  }
+
+.dropdown-container {
+  margin: 50px 0 0 50px;
+}
+.dd-input-field {
+    width: 93%;
+    border: 0;
+    height: 35px;
+    font-size: 18px;
+}
+
+.dd-input-field:hover {
+    border: none;
+}
+
+.dd-input-field:focus {
+    border: none;
+    outline: none;
+}
+
+.more-options {
+    width: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dd-search {
+    height: 30px;
+    width: 30px;
+}
